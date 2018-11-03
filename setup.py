@@ -9,7 +9,7 @@ setup(
     author_email='adam.p.bannister@gmail.com',
     url='',
     install_requires=[
-        'flask==0.10.1','flask-login==0.2.11',
+        'flask>=0.12.3','flask-login==0.2.11',
         'sqlalchemy==0.9.9','flask-sqlalchemy==2.0',
         'flask-wtf==0.11', 'Flask-Migrate==1.5.0',
         'SQLAlchemy==0.9.9', 'WTForms==2.0.2',
